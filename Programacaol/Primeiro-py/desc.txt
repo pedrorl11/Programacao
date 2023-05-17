@@ -1,0 +1,15 @@
+Faça um programa que leia dois números inteiros e apresente o resultado de sua soma:
+
+Casos de Teste:
+
+input = 10
+
+20
+
+output = 30
+
+input = 30
+
+40
+
+output = 70

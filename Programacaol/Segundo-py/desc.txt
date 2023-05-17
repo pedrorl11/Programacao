@@ -1,0 +1,15 @@
+Faça um programa que leia dois números inteiros e apresente o resultado da multiplicação de um pelo outro:
+
+Casos de Teste:
+
+input = 10
+
+20
+
+output = 200
+
+input = 30
+
+40
+
+output = 1200
