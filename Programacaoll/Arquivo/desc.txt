@@ -1,0 +1,1 @@
+Refaça a LVP LISTA . Dessa vez os dados devem ser "colhidos" de um arquivo texto "dados.txt" e cada linha desse arquivo deve formar uma lista dentro de outra lista (lista de listas)

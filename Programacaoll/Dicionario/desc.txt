@@ -1,0 +1,4 @@
+Tipo de trabalho: Trabalho individual
+Modifique a forma de listagem do exercício 4, agora listando, linha por linha, cada nome e telefone, sem apresentar um formato de dicionário.
+
+dic = {"wagner":666,"maria":555,"pedro":333,"jose":111}

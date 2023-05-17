@@ -1,0 +1,69 @@
+Elabore um programa de Agenda de Contatos, em Python. O programa deve ter uma função que preencha um dicionário com os dados contidos no arquivo agenda.txt, sendo o nome da pessoa, a chave do dicionário.
+
+agenda.txt
+
+Andre 1111-1111 2222-2222
+Aroldo 3333-3333 4444-4444
+Beatriz 5555-5555 6666-6666
+Duda 7777-7777 8888-8888
+Emanuel 9999-9999 1010-1010
+Gabriel 1011-1011 1212-1212 9999-9999
+Gustavo 1313-1313 1414-1414
+Ingredi 1515-1515 1616-1616
+Jennifer 1717-1717 1818-1818
+Juliano 1919-1919 2020-2020 8888-8888
+Lorran 2121-2121
+Rafael 2022-2022 2323-2323
+Thiago 2525-2525 2626-2626
+Yasmim 2727-2727 2828-2828
+
+Obs: Independente de como os nomes sejam informados, eles devem ser armazenados em letra MAIÚSCULA
+
+Com o dicionário preenchido, construa funções, que atendam a um menu de opções:
+
+1. Carregar Contatos
+2. Listar Contatos
+3. Incluir Contato
+4. Excluir Contato
+5. Gravar Dados
+6. Sair
+
+1) Carregar Contatos: Efetuar a leitura dos contatos que estão no arquivo agenda.txt. Entretanto, o programa já deve iniciar com os contatos carregados em um dicionário. 
+
+2) Listar Contatos: essa função deverá listar o nome dos contatos, EM ORDEM ALFABÉTICA, e seu(s) números de telefone, conforme exemplo abaixo:
+Dica: para ordenar, o dicionário deverá ser carregado em uma lista de listas, uma vez que não está autorizada a utilização do método sorted
+
+Lista de Contatos (ex de formato de saída)
+
+ANDRE: 1111-1111 2222-2222
+AROLDO: 3333-3333 4444-4444
+BEATRIZ: 5555-5555 6666-6666
+
+obs.: Faça uma função de ordenação de para ordenar os nomes, não utilize funções de ordenação do Python.
+
+3) Incluir Contato: essa função dará ao usuário a opção de incluir um novo contato no dicionário (nome e números de telefone) ou alterar um contato já existente incluindo novos números de telefones.
+
+INCLUSÃO – Se contato não existir no dicionário, solicite os números de telefones.
+ALTERAÇÃO – Se contato já existir no dicionário, acrescente os números de telefones, se os mesmos não existirem na lista de telefones deste contato.
+
+Ao final o programa deve informar o êxito da operação e gravar os dados no arquivo agenda.txt.
+>> contato incluído com sucesso
+ou
+>> contato atualizado com sucesso
+
+4) Excluir Contato: Ao selecionar essa opção, o programa deverá perguntar ao usuário qual dos contatos ele deseja excluir. Ao excluir o contato, o programa informará que o contato foi excluído. Caso o nome do contato não exista, a função deve informar essa condição ao usuário.
+
+Ex:
+Digite o nome do contato que deseja excluir:
+
+>> Contato excluído com sucesso
+>> Contato não encontrado
+
+após a exclusão, o programa deverá gravar os dados no arquivo agenda.txt
+
+5) O programa deverá oportunizar ao usuário gravar os dados no arquivo agenda.txt a qualquer tempo.
+
+Após quaisquer das opções, entre 1 e 5, o programa deve voltar a apresentar o menu de opções.
+
+
+Dicas: Para atender ao caso de teste, apague todas interações de input e não utilize, na listagem da agenda, o \n , bem como os saltos de linha com print vazio. Isso evitará os erros de comparação entre os casos de teste e a saída de seu programa.  Deixando claro que o  \n continua sendo necessário na hora de gravar o arquivo txt, apenas nos outputs é que ele não deve ser utilizado.

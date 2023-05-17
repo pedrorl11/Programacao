@@ -1,0 +1,2 @@
+Ler informações sobre um grupo de 25 pessoas e calcular alguns dados estatísticos.
+Para cada pessoa do grupo obter o o sexo (“F” para feminino e “M” para o masculino), a altura e o peso. Calcular e escrever:
